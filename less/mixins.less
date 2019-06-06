@@ -1,1 +1,17 @@
 // Mixins in here
+
+.border {
+    border: 3px solid red;
+}
+.buttonDecoration (@justifty, @align) {
+	font-size: 1.5rem;
+    background-color: teal;
+    color: white;
+    padding: @buttonPadding;
+    border-radius: 1rem;
+    justify: @justifty;
+    align: @align;
+    
+
+
+}

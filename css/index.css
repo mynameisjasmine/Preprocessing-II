@@ -1,3 +1,13 @@
+.border {
+  border: 3px solid red;
+}
+.buttonDecoration {
+  font-size: 1.5rem;
+  background-color: teal;
+  color: white;
+  padding: 1rem 1rem 0.9rem 1rem;
+  border-radius: 1rem;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -167,6 +177,36 @@ img {
   max-width: 800px;
   width: 100%;
   margin: 0 auto;
+}
+.btn {
+  border: 3px solid red;
+}
+.sign-up-button {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  border: 3px solid red;
+}
+.sign-up-button1 {
+  font-size: 1.5rem;
+  background-color: teal;
+  color: white;
+  padding: 1rem 1rem 0.9rem 1rem;
+  border-radius: 1rem;
+}
+.sign-up-button2 {
+  font-size: 1.5rem;
+  background-color: teal;
+  color: white;
+  padding: 1rem 1rem 0.9rem 1rem;
+  border-radius: 1rem;
+}
+.sign-up-button3 {
+  font-size: 1.5rem;
+  background-color: teal;
+  color: white;
+  padding: 1rem 1rem 0.9rem 1rem;
+  border-radius: 1rem;
 }
 nav {
   display: flex;
