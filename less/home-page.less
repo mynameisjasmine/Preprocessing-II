@@ -10,7 +10,27 @@
   .header-div {
     width: 100%;
     border-bottom: 2px dashed lightgray;
-    //border-top: 2px dashed lightgray;
+    
+    
+    @media @mobile {
+      flex-wrap: wrap;
+      width: 100%;
+      justify-content: center;
+      
+    }
+    
+  }
+
+  .welcome-line {
+    padding-top: 2rem;
+  }
+
+  .welcome-blurb {
+    
+    
+    @media @mobile {
+      font-size: .5rem;
+      .border();
   }
 
   .content-section {
@@ -19,11 +39,24 @@
     flex-wrap: wrap;
     justify-content: space-between;
 
-   
+    @media @mobile {
+      flex-direction: column;
+      width: 100%;
+      justify-content: center;
+    }
+    
+    
     
     .text-content {
       width: 48%;
       padding-right: 1%;
+
+      @media @mobile {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+      }
     }
 
     .img-content {

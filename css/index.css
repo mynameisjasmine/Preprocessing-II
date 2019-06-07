@@ -198,6 +198,12 @@ img {
   color: #302f2f;
   padding-right: 3rem;
 }
+@media (max-width: 500px) {
+  .fun-nav {
+    width: 100%;
+    padding: 20px;
+  }
+}
 .fun-nav .bus-nav-tag {
   padding-left: 21rem;
 }
@@ -215,6 +221,9 @@ img {
 .home .header-div {
   width: 100%;
   border-bottom: 2px dashed lightgray;
+}
+.home .welocme-line {
+  padding-top: 2rem;
 }
 .home .content-section {
   margin: 30px 0;
