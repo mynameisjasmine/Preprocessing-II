@@ -183,20 +183,23 @@ img {
 }
 .fun-nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   width: 100%;
-  border: 3px solid red;
+  border-bottom: 2px dashed lightgray;
 }
 .fun-nav nav {
   font-size: 1.8rem;
   padding-top: 3rem;
   padding-bottom: 20px;
+  padding-right: 19rem;
 }
 .fun-nav nav a {
-  justify-content: space-evenly;
   color: #302f2f;
   padding-right: 3rem;
+}
+.fun-nav .bus-nav-tag {
+  padding-left: 21rem;
 }
 .footer {
   width: 100%;
@@ -211,6 +214,7 @@ img {
 }
 .home .header-div {
   width: 100%;
+  border-bottom: 2px dashed lightgray;
 }
 .home .content-section {
   margin: 30px 0;
