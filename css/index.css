@@ -2,11 +2,14 @@
   border: 3px solid red;
 }
 .buttonDecoration {
-  font-size: 1.5rem;
+  border-radius: 1rem;
+  width: 80%;
+  height: 3.5rem;
+  font-size: 1.7rem;
+  padding: 1rem 1rem 2em 5rem;
   background-color: teal;
   color: white;
-  padding: 1rem 1rem 0.9rem 1rem;
-  border-radius: 1rem;
+  border: 1px solid #C0C0C0;
 }
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -174,47 +177,26 @@ img {
   height: auto;
 }
 .container {
-  max-width: 800px;
-  width: 100%;
+  max-width: 100%;
+  width: 800px;
   margin: 0 auto;
 }
-.btn {
+.fun-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
   border: 3px solid red;
 }
-.sign-up-button {
-  display: flex;
-  width: 100%;
-  justify-content: space-evenly;
-  border: 3px solid red;
-}
-.sign-up-button1 {
-  font-size: 1.5rem;
-  background-color: teal;
-  color: white;
-  padding: 1rem 1rem 0.9rem 1rem;
-  border-radius: 1rem;
-}
-.sign-up-button2 {
-  font-size: 1.5rem;
-  background-color: teal;
-  color: white;
-  padding: 1rem 1rem 0.9rem 1rem;
-  border-radius: 1rem;
-}
-.sign-up-button3 {
-  font-size: 1.5rem;
-  background-color: teal;
-  color: white;
-  padding: 1rem 1rem 0.9rem 1rem;
-  border-radius: 1rem;
-}
-nav {
-  display: flex;
-  width: 100%;
+.fun-nav nav {
   font-size: 1.8rem;
   padding-top: 3rem;
   padding-bottom: 20px;
+}
+.fun-nav nav a {
   justify-content: space-evenly;
+  color: #302f2f;
+  padding-right: 3rem;
 }
 .footer {
   width: 100%;
@@ -226,6 +208,9 @@ nav {
   color: #212529;
   font-size: 1.6rem;
   padding: 20px;
+}
+.home .header-div {
+  width: 100%;
 }
 .home .content-section {
   margin: 30px 0;
@@ -272,4 +257,14 @@ nav {
 .home .content-pick .destination {
   width: 30%;
   margin-bottom: 30px;
+}
+.home .content-pick .btn {
+  border-radius: 1rem;
+  width: 80%;
+  height: 3.5rem;
+  font-size: 1.7rem;
+  padding: 1rem 1rem 2em 5rem;
+  background-color: teal;
+  color: white;
+  border: 1px solid #C0C0C0;
 }
