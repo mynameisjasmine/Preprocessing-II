@@ -14,8 +14,10 @@
     
     @media @mobile {
       flex-wrap: wrap;
-      width: 100%;
+      width: 90%;
+      margin-left: 2.5rem;
       justify-content: center;
+      // border: 2px solid green;
       
     }
     
@@ -24,14 +26,23 @@
   .welcome-line {
     padding: 2rem 0 1rem 0 ;
     // border: 2px solid red;
+
+    @media @mobile {
+      font-size: 3rem;
+      margin-left: .5rem;
+    }
   }
 
   .welcome-blurb {
     padding-bottom: 2rem;
     
     @media @mobile {
-      font-size: .5rem;
-      .border();
+      font-size: 1.6rem;
+      width: 95%;
+      margin-left: .5rem;
+      // border: 2px solid green;
+
+      
     }
 
   }
@@ -48,11 +59,25 @@
 
     @media @mobile {
       flex-direction: column;
-      width: 100%;
+      width: 90%;
+      margin-left: 2.5rem;
       justify-content: center;
+      // border: 2px solid green;
+    }
+   
+    .go-line {
+      @media @mobile {
+        margin-left: .5rem;
+      }
     }
     
-    
+  }
+
+  .go-blurb {
+    //  border: 2px solid green;
+    margin-left: .5rem;
+    font-size: 1.6rem;
+    width: 90%;
   }
 
   .text-content {
@@ -64,6 +89,7 @@
       flex-direction: column;
       width: 100%;
       justify-content: center;
+      // border: 2px solid green;
     }
   }
 
@@ -71,8 +97,17 @@
     width: 48%;
     padding-left: 1%;
 
+    @media @mobile {
+      width: 100%;
+      // margin-left: .5rem;
+    }
+
     img {
       border-radius: 10px;
+
+      @media @mobile {
+        // width: 100%;
+      }
     }
   }
 

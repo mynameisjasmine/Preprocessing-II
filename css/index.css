@@ -190,7 +190,18 @@ img {
 }
 @media (max-width: 500px) {
   .fun-nav {
+    flex-direction: column;
+  }
+}
+.fun-nav .bus-nav-tag {
+  padding-left: 21rem;
+}
+@media (max-width: 500px) {
+  .fun-nav .bus-nav-tag {
     width: 100%;
+    border: 2px solid red;
+    position: relative;
+    left: -4rem;
   }
 }
 .fun-nav nav {
@@ -199,6 +210,13 @@ img {
   padding-bottom: 20px;
   padding-right: 19rem;
 }
+@media (max-width: 500px) {
+  .fun-nav nav {
+    border: 2px solid red;
+    padding-left: 2rem;
+    display: flex;
+  }
+}
 .fun-nav nav a {
   color: #302f2f;
   padding-right: 3rem;
@@ -206,18 +224,9 @@ img {
 @media (max-width: 500px) {
   .fun-nav nav a {
     width: 100%;
-    padding: 20px;
-    align-items: flex-end;
-  }
-}
-.fun-nav .bus-nav-tag {
-  padding-left: 21rem;
-}
-@media (max-width: 500px) {
-  .fun-nav .bus-nav-tag {
-    flex-wrap: wrap;
-    width: 100%;
-    justify-content: center;
+    padding: 0rem;
+    align-content: center;
+    border: 2px solid red;
   }
 }
 .footer {
@@ -238,20 +247,28 @@ img {
 @media (max-width: 500px) {
   .home .header-div {
     flex-wrap: wrap;
-    width: 100%;
+    width: 90%;
+    margin-left: 2.5rem;
     justify-content: center;
   }
 }
 .home .welcome-line {
   padding: 2rem 0 1rem 0 ;
 }
+@media (max-width: 500px) {
+  .home .welcome-line {
+    font-size: 3rem;
+    margin-left: 0.5rem;
+  }
+}
 .home .welcome-blurb {
   padding-bottom: 2rem;
 }
 @media (max-width: 500px) {
   .home .welcome-blurb {
-    font-size: 0.5rem;
-    border: 3px solid red;
+    font-size: 1.6rem;
+    width: 95%;
+    margin-left: 0.5rem;
   }
 }
 .home .content-section {
@@ -263,9 +280,20 @@ img {
 @media (max-width: 500px) {
   .home .content-section {
     flex-direction: column;
-    width: 100%;
+    width: 90%;
+    margin-left: 2.5rem;
     justify-content: center;
   }
+}
+@media (max-width: 500px) {
+  .home .content-section .go-line {
+    margin-left: 0.5rem;
+  }
+}
+.home .go-blurb {
+  margin-left: 0.5rem;
+  font-size: 1.6rem;
+  width: 90%;
 }
 .home .text-content {
   width: 48%;
@@ -283,8 +311,15 @@ img {
   width: 48%;
   padding-left: 1%;
 }
+@media (max-width: 500px) {
+  .home .img-content {
+    width: 100%;
+  }
+}
 .home .img-content img {
   border-radius: 10px;
+}
+@media (max-width: 500px) {
 }
 .home .inverse-content {
   padding-bottom: 30px;
