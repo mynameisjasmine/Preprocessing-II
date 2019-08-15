@@ -115,6 +115,10 @@
     padding-bottom: 30px;
     border-bottom: 2px dashed @navigation-border;
 
+    @media @mobile {
+      flex-direction: column-reverse;
+    }
+
     .text-content {
       padding-left: 1%;
       padding-right: 0;
@@ -130,6 +134,13 @@
     width: 75%;
     margin: 0 auto 30px;
 
+    @media @mobile {
+      // border: 2px solid green;
+      margin-right: 4rem;
+      width: 87%;
+      
+    }
+
     img {
       border-radius: 10px;
     }
@@ -141,9 +152,20 @@
     display: flex;
     justify-content: space-between;
 
+    @media @mobile {
+      flex-direction: column;
+      width: 90%;
+      margin-left: 3rem;
+    }
+
     .destination {
       width: 30%;
       margin-bottom: 30px;
+
+      @media @mobile {
+        width: 80%;
+        margin-left: 6rem;
+      }
 
 
     }
@@ -151,6 +173,13 @@
 
     .btn {
       .buttonDecoration();
+
+      @media @mobile {
+        
+        width: 95%;
+        padding-right: 5rem;
+        text-align: center;
+      }
     
     }
   }
