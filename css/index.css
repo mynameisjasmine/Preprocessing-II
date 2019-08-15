@@ -188,6 +188,11 @@ img {
   width: 100%;
   border-bottom: 2px dashed lightgray;
 }
+@media (max-width: 500px) {
+  .fun-nav {
+    width: 100%;
+  }
+}
 .fun-nav nav {
   font-size: 1.8rem;
   padding-top: 3rem;
@@ -199,13 +204,21 @@ img {
   padding-right: 3rem;
 }
 @media (max-width: 500px) {
-  .fun-nav {
+  .fun-nav nav a {
     width: 100%;
     padding: 20px;
+    align-items: flex-end;
   }
 }
 .fun-nav .bus-nav-tag {
   padding-left: 21rem;
+}
+@media (max-width: 500px) {
+  .fun-nav .bus-nav-tag {
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+  }
 }
 .footer {
   width: 100%;
@@ -222,56 +235,85 @@ img {
   width: 100%;
   border-bottom: 2px dashed lightgray;
 }
-.home .welocme-line {
-  padding-top: 2rem;
+@media (max-width: 500px) {
+  .home .header-div {
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+  }
 }
-.home .content-section {
+.home .welcome-line {
+  padding-top: 2rem;
+  border: 2px solid red;
+}
+@media (max-width: 500px) {
+  .home .welcome-blurb {
+    font-size: 0.5rem;
+    border: 3px solid red;
+  }
+}
+.home .welcome-blurb .content-section {
   margin: 30px 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
-.home .content-section .text-content {
+@media (max-width: 500px) {
+  .home .welcome-blurb .content-section {
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+  }
+}
+.home .welcome-blurb .content-section .text-content {
   width: 48%;
   padding-right: 1%;
 }
-.home .content-section .img-content {
+@media (max-width: 500px) {
+  .home .welcome-blurb .content-section .text-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+  }
+}
+.home .welcome-blurb .content-section .img-content {
   width: 48%;
   padding-left: 1%;
 }
-.home .content-section .img-content img {
+.home .welcome-blurb .content-section .img-content img {
   border-radius: 10px;
 }
-.home .inverse-content {
+.home .welcome-blurb .inverse-content {
   padding-bottom: 30px;
   border-bottom: 2px dashed #C0C0C0;
 }
-.home .inverse-content .text-content {
+.home .welcome-blurb .inverse-content .text-content {
   padding-left: 1%;
   padding-right: 0;
 }
-.home .inverse-content .img-content {
+.home .welcome-blurb .inverse-content .img-content {
   padding-right: 1%;
   padding-left: 0;
 }
-.home .content-destination {
+.home .welcome-blurb .content-destination {
   width: 75%;
   margin: 0 auto 30px;
 }
-.home .content-destination img {
+.home .welcome-blurb .content-destination img {
   border-radius: 10px;
 }
-.home .content-pick {
+.home .welcome-blurb .content-pick {
   padding-top: 30px;
   border-top: 2px dashed #C0C0C0;
   display: flex;
   justify-content: space-between;
 }
-.home .content-pick .destination {
+.home .welcome-blurb .content-pick .destination {
   width: 30%;
   margin-bottom: 30px;
 }
-.home .content-pick .btn {
+.home .welcome-blurb .content-pick .btn {
   border-radius: 1rem;
   width: 80%;
   height: 3.5rem;
