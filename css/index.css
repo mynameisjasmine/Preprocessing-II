@@ -198,10 +198,10 @@ img {
 }
 @media (max-width: 500px) {
   .fun-nav .bus-nav-tag {
-    width: 100%;
-    border: 2px solid red;
+    width: 70%;
+    font-size: 3rem;
+    padding: 5rem 0rem 0 12.5rem;
     position: relative;
-    left: -4rem;
   }
 }
 .fun-nav nav {
@@ -212,9 +212,10 @@ img {
 }
 @media (max-width: 500px) {
   .fun-nav nav {
-    border: 2px solid red;
+    padding-top: 1rem;
     padding-left: 2rem;
-    display: flex;
+    padding-right: 0;
+    height: 4rem;
   }
 }
 .fun-nav nav a {
@@ -224,9 +225,9 @@ img {
 @media (max-width: 500px) {
   .fun-nav nav a {
     width: 100%;
-    padding: 0rem;
+    font-size: 1.5rem;
+    padding-right: 4.5rem;
     align-content: center;
-    border: 2px solid red;
   }
 }
 .footer {
