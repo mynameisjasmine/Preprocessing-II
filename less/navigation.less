@@ -7,16 +7,35 @@
     justify-content: space-evenly; 
     align-items: center;
     width: 100%;
-    border-bottom: 2px dashed lightgray;
-
     
+    border-bottom: 2px dashed lightgray;
+    
+    @media (max-width: 500px)  {
+      flex-direction: column;
+    //   border: 2px solid red;
+        
+       }
+    
+       
+     
+
+
+    .bus-nav-tag {
+        padding-left: 21rem;
+        
+
         @media @mobile {
-            width: 100%;
-            //padding: 20px;
+            // flex-wrap: wrap;
+            width: 70%;
+            font-size: 3rem;
+            padding: 5rem 0rem 0 12.5rem;
+            // border: 2px solid red;
+            position: relative;
+           
             
+        }
+        
     }
-
-
 
         nav  {
         
@@ -24,42 +43,47 @@
             padding-top: 3rem;
             padding-bottom: 20px;
             padding-right: 19rem;
-            
-            
-        }
-
-        nav a {
-            color: rgb(48, 47, 47);
-            padding-right: 3rem;
-            
-            
-            @media @mobile {
-                width: 100%;
-                padding: 20px;
-                //justify-content: space-around;
-                align-items: flex-end;
-            }
-        }
-        
-        
-
-        .bus-nav-tag {
-            padding-left: 21rem;
 
             @media @mobile {
-                flex-wrap: wrap;
-                width: 100%;
-                justify-content: center;
+                //  border: 2px solid purple;
+                 padding-top: 1rem;
+                padding-left: 2rem;
+                padding-right: 0;
+                height: 4rem;
+                // display: flex;
                 
-    
-           }
+                
+            }
+
+
+            a {
+                color: rgb(48, 47, 47);
+                padding-right: 3rem;
+                
+                
+                @media @mobile {
+                    width: 100%;
+                    font-size: 1.5rem;
+                     padding-right: 4.5rem;
+                    align-content: center;
+                    // border: 2px solid green;
+                }
+            }
+            
+            
             
         }
+        
 
+    }
+         
+        
+
+       
         
 
 
-        
+          
         
 
 
